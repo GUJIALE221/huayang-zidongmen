@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://GUJIALE221.github.io/store-site/sitemap.xml
