@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ============================================================
+       ✏️ SEO 核心信息（百度收录主要看这三处）
+       ============================================================ -->
+  <title>华阳自动门 - 镇江自动门安装维修上门服务</title>
+  <meta name="description" content="华阳自动门承接镇江及周边地区自动感应门、电动卷帘门、防火门、玻璃门、门禁系统的安装与维修，本地团队上门勘测、报价透明，电话：15050857999。">
+  <meta name="keywords" content="华阳自动门,镇江自动门,自动门安装,自动门维修,电动卷帘门,防火门,门禁系统安装">
+  <meta name="applicable-device" content="pc,mobile">
+  <meta name="renderer" content="webkit">
+
+  <!-- ✏️ 网址部署后这里要换成你的正式网址（部署时我会自动改） -->
+  <link rel="canonical" href="https://GUJIALE221.github.io/store-site/">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚪</text></svg>">
+
+  <!-- 结构化数据：让百度/搜索引擎更准确地识别店铺名称、电话、服务地区 -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "华阳自动门",
+    "description": "承接镇江及周边地区自动感应门、电动卷帘门、防火门、玻璃门、门禁系统的安装与维修。",
+    "telephone": "15050857999",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "镇江市",
+      "addressRegion": "江苏省",
+      "addressCountry": "CN"
+    },
+    "areaServed": "镇江市区及周边",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "sales",
+      "name": "谷旭辉",
+      "telephone": "15050857999"
+    }
+  }
+  </script>
+
+  <style>
+    :root {
+      --brand: #1d4ed8;
+      --brand-dark: #1e40af;
+      --brand-light: #eff5ff;
+      --ink: #1e2430;
+      --ink-soft: #5b6472;
+      --bg: #fbfdff;
+      --card: #ffffff;
+      --line: #e3e9f2;
+      --radius: 16px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.7;
+    }
+    a { color: inherit; text-decoration: none; }
+    img, svg { display: block; max-width: 100%; }
+    .wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+
+    /* ===== 顶部导航 ===== */
+    header {
+      position: sticky; top: 0; z-index: 10;
+      background: rgba(251, 253, 255, .92);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--line);
+    }
+    .nav { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+    .logo { font-size: 20px; font-weight: 700; color: var(--brand-dark); }
+    .logo span { margin-right: 6px; }
+    nav.links { display: flex; gap: 26px; font-size: 15px; color: var(--ink-soft); }
+    nav.links a:hover { color: var(--brand); }
+    .nav-phone {
+      background: var(--brand); color: #fff; font-weight: 600;
+      padding: 8px 18px; border-radius: 999px; font-size: 14px;
+    }
+    .nav-phone:hover { background: var(--brand-dark); }
+    @media (max-width: 720px) { nav.links { display: none; } }
+
+    /* ===== 首屏 ===== */
+    .hero {
+      text-align: center;
+      padding: 90px 20px 80px;
+      background:
+        radial-gradient(1200px 500px at 50% -10%, #dbe9ff 0%, transparent 60%),
+        linear-gradient(180deg, #eef4ff 0%, var(--bg) 100%);
+    }
+    .hero h1 { font-size: 42px; line-height: 1.25; letter-spacing: 1px; }
+    .hero h1 em { font-style: normal; color: var(--brand); }
+    .hero p.sub { margin: 18px auto 0; max-width: 580px; color: var(--ink-soft); font-size: 17px; }
+    .hero .cta { margin-top: 34px; display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+    .btn {
+      display: inline-block; padding: 13px 30px; border-radius: 999px;
+      font-size: 16px; font-weight: 600; transition: .2s;
+    }
+    .btn.primary { background: var(--brand); color: #fff; box-shadow: 0 8px 20px rgba(29, 78, 216, .3); }
+    .btn.primary:hover { background: var(--brand-dark); transform: translateY(-2px); }
+    .btn.ghost { border: 1.5px solid var(--brand); color: var(--brand-dark); background: #fff; }
+    .btn.ghost:hover { background: var(--brand-light); }
+    .hero .badges { margin-top: 40px; display: flex; gap: 26px; justify-content: center; flex-wrap: wrap; color: var(--ink-soft); font-size: 14px; }
+    .hero .badges b { color: var(--ink); }
+    @media (max-width: 720px) { .hero h1 { font-size: 30px; } .hero { padding: 60px 20px 56px; } }
+
+    /* ===== 区块通用 ===== */
+    section { padding: 76px 0; }
+    section.alt { background: #fff; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+    .sec-head { text-align: center; margin-bottom: 44px; }
+    .sec-head h2 { font-size: 30px; }
+    .sec-head p { color: var(--ink-soft); margin-top: 10px; }
+
+    /* ===== 卡片 ===== */
+    .grid { display: grid; gap: 22px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+    .card {
+      background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+      padding: 30px 26px; transition: .2s;
+    }
+    .card:hover { transform: translateY(-4px); box-shadow: 0 14px 30px rgba(30, 60, 120, .1); }
+    .card .icon {
+      width: 58px; height: 58px; border-radius: 14px; background: var(--brand-light);
+      display: flex; align-items: center; justify-content: center; font-size: 28px; margin-bottom: 16px;
+    }
+    .card h3 { font-size: 19px; margin-bottom: 8px; }
+    .card p { color: var(--ink-soft); font-size: 14.5px; }
+    .card .price { margin-top: 14px; color: var(--brand); font-weight: 700; }
+
+    /* ===== 服务流程 ===== */
+    .steps { display: grid; gap: 22px; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); counter-reset: step; }
+    .step { text-align: center; padding: 10px 8px; }
+    .step .num {
+      width: 52px; height: 52px; margin: 0 auto 14px; border-radius: 50%;
+      background: var(--brand); color: #fff; font-size: 20px; font-weight: 700;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 6px 16px rgba(29, 78, 216, .25);
+    }
+    .step h3 { font-size: 17px; margin-bottom: 6px; }
+    .step p { color: var(--ink-soft); font-size: 14px; }
+
+    /* ===== 联系 ===== */
+    .contact-grid { display: grid; gap: 22px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); text-align: center; }
+    .contact-item .icon { font-size: 34px; margin-bottom: 10px; }
+    .contact-item h3 { font-size: 17px; margin-bottom: 6px; }
+    .contact-item p { color: var(--ink-soft); font-size: 15px; }
+    .contact-item a.tel { color: var(--brand); font-weight: 700; font-size: 20px; }
+    .contact-note { text-align: center; margin-top: 40px; color: var(--ink-soft); font-size: 14px; }
+
+    /* ===== 页脚 ===== */
+    footer { padding: 34px 0 44px; text-align: center; color: var(--ink-soft); font-size: 13.5px; border-top: 1px solid var(--line); background: #fff; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="wrap nav">
+      <div class="logo"><span>🚪</span>华阳自动门</div>
+      <nav class="links">
+        <a href="#products">服务项目</a>
+        <a href="#why">我们的优势</a>
+        <a href="#flow">服务流程</a>
+        <a href="#contact">联系我们</a>
+      </nav>
+      <a class="nav-phone" href="tel:15050857999">📞 150-5085-7999</a>
+    </div>
+  </header>
+
+  <div class="hero">
+    <h1><em>华阳自动门</em> · 镇江门业一站式服务<br>安装 · 维修 · 保养，一个电话上门</h1>
+    <p class="sub">承接自动感应门、电动卷帘门、防火门、玻璃门、门禁系统的安装与维修。本地团队，上门勘测，快速响应。</p>
+    <div class="cta">
+      <a class="btn primary" href="tel:15050857999">📞 电话咨询：150-5085-7999</a>
+      <a class="btn ghost" href="#products">看看我们做什么</a>
+    </div>
+    <div class="badges">
+      <div>🔧 <b>安装维修</b> · 都在行</div>
+      <div>📍 <b>镇江本地</b> · 上门服务</div>
+      <div>💬 <b>报价透明</b> · 勘测后定价</div>
+    </div>
+  </div>
+
+  <!-- ✏️ 服务项目：按你的实际业务增删 -->
+  <section id="products" class="alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>服务项目</h2>
+        <p>各类门型安装、维修、保养，电话咨询 ：150-5085-7999</p>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <div class="icon">🚪</div>
+          <h3>自动感应门</h3>
+          <p>商场、写字楼、医院、银行入口首选，人体感应自动开合，运行平稳、安全静音。</p>
+          <div class="price">上门勘测 · 方案报价</div>
+        </div>
+        <div class="card">
+          <div class="icon">🧱</div>
+          <h3>电动卷帘门</h3>
+          <p>店面、仓库、车库电动卷帘门安装，遥控开关，可选停电手动、防夹功能。</p>
+          <div class="price">上门勘测 · 方案报价</div>
+        </div>
+        <div class="card">
+          <div class="icon">🔥</div>
+          <h3>防火门</h3>
+          <p>钢质防火门安装更换，配合消防验收要求，提供产品合格证明。</p>
+          <div class="price">上门勘测 · 方案报价</div>
+        </div>
+        <div class="card">
+          <div class="icon">🪟</div>
+          <h3>玻璃地弹簧门</h3>
+          <p>沿街商铺玻璃门安装，地弹簧、门夹配件维修更换，开关顺滑不刮地。</p>
+          <div class="price">上门勘测 · 方案报价</div>
+        </div>
+        <div class="card">
+          <div class="icon">🔐</div>
+          <h3>门禁系统</h3>
+          <p>刷卡、密码、人脸识别门禁安装，可与自动门联动，出入管理更省心。</p>
+          <div class="price">上门勘测 · 方案报价</div>
+        </div>
+        <div class="card">
+          <div class="icon">🔧</div>
+          <h3>维修与保养</h3>
+          <p>各品牌自动门、卷帘门故障维修，电机、控制器更换，支持定期保养。</p>
+          <div class="price">电话报修 · 快速上门</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✏️ 优势：这几条是按行业常见情况写的，哪条不符合就告诉我改 -->
+  <section id="why">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>为什么选择我们</h2>
+        <p>把门的事交给专业的人</p>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <div class="icon">📍</div>
+          <h3>镇江本地团队</h3>
+          <p>市区及周边接单后快速上门勘测，路近响应快，售后跑得了和尚跑不了庙。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🚪</div>
+          <h3>门型齐全</h3>
+          <p>感应门、卷帘门、防火门、玻璃门、门禁一站式搞定，不用东家找一家西家找一家。</p>
+        </div>
+        <div class="card">
+          <div class="icon">💬</div>
+          <h3>报价透明</h3>
+          <p>上门勘测、量好尺寸再报价，方案和费用写在明处，施工中不加价。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🛡️</div>
+          <h3>售后有保障</h3>
+          <p>安装完不是结束，维修保养长期支持，一个电话随时找到人。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="flow" class="alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>服务流程</h2>
+        <p>从咨询电话到售后保障，五步搞定</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="num">1</div>
+          <h3>电话联系</h3>
+          <p>拨打 150-5085-7999<br>说明门的类型和需求</p>
+        </div>
+        <div class="step">
+          <div class="num">2</div>
+          <h3>上门勘测</h3>
+          <p>预约时间上门<br>量尺寸、看现场条件</p>
+        </div>
+        <div class="step">
+          <div class="num">3</div>
+          <h3>方案报价</h3>
+          <p>给出配置方案和报价<br>确认后约定工期</p>
+        </div>
+        <div class="step">
+          <div class="num">4</div>
+          <h3>安装施工</h3>
+          <p>专业安装调试<br>完工现场验收</p>
+        </div>
+        <div class="step">
+          <div class="num">5</div>
+          <h3>售后保障</h3>
+          <p>质保期内免费处理<br>长期支持维修保养</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✏️ 联系方式：务必真实准确，这直接影响客户能不能找到你 -->
+  <section id="contact">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>联系我们</h2>
+        <p>一个电话，上门勘测</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <div class="icon">📞</div>
+          <h3>咨询电话</h3>
+          <p>联系人：谷旭辉<br><a class="tel" href="tel:15050857999">150-5085-7999</a></p>
+        </div>
+        <div class="contact-item">
+          <div class="icon">📍</div>
+          <h3>服务地区</h3>
+          <p>镇江市区及周边<br>上门勘测 · 上门安装 · 上门维修</p>
+        </div>
+        <div class="contact-item">
+          <div class="icon">🚪</div>
+          <h3>业务范围</h3>
+          <p>自动感应门 / 电动卷帘门<br>防火门 / 玻璃门 / 门禁系统</p>
+        </div>
+        <div class="contact-item">
+          <div class="icon">💬</div>
+          <h3>微信咨询</h3>
+          <p>手机号即微信号<br>添加请备注"咨询"</p>
+        </div>
+      </div>
+      <p class="contact-note">价格根据门型、尺寸、配置不同面议 · 欢迎电话咨询比价</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <p>© 2026 华阳自动门 · 联系人：谷旭辉 · 服务地区：镇江市区及周边 · 电话：150-5085-7999</p>
+      <p style="margin-top:6px;">自动门 · 卷帘门 · 防火门 · 玻璃门 · 门禁系统 安装维修</p>
+    </div>
+  </footer>
+
+</body>
+</html>
